@@ -1,0 +1,160 @@
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #c7c7c7;
+  }
+  
+  .dark-mode .sidebar {
+    background-color: #252526;
+    border-right: 1px solid #3c3c3c;
+  }
+  
+  .dark-mode .main-content {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .note-list li {
+    background-color: #2d2d2d;
+    color: #c7c7c7;
+    border-bottom: 1px solid #3c3c3c;
+  }
+  
+  .dark-mode .note-list li:hover {
+    background-color: #3c3c3c;
+  }
+
+  .dark-mode .note-item {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .note-item.active {
+    background: linear-gradient(-50deg, rgba(0, 128, 0, 0.150), hsla(147, 88%, 34%, 0.150), rgba(0, 255, 81, 0.150));
+    /* background: linear-gradient(90deg, hsla(147, 88%, 34%, 0.150), rgba(0, 128, 0, 0.150), rgba(128, 255, 0, 0.150)); */
+    border-bottom: 1px solid #083d08;
+    color: #ffffff;
+  }
+
+  .dark-mode .editable {
+    background-color: #1e1e1e;
+    border-color: 1px solid rgba(204, 204, 204, 0.15);
+    color: #c7c7c7;
+  }
+  
+  .dark-mode .editable[contenteditable="true"]:empty:before {
+    color: #555;
+  }
+
+  .dark-mode .new-note-btn{
+    color: #c7c7c7; 
+  }
+  
+  .dark-mode .search input,
+  .dark-mode,
+  .dark-mode #debug-button {
+    background-color: #333333;
+    color: #c7c7c7;
+    border: 1px solid #3c3c3c;
+  }
+  
+  .dark-mode .search input:focus,
+  .dark-mode .new-note-btn:focus,
+  .dark-mode #debug-button:focus {
+    outline-color: #007acc;
+  }
+  
+  .dark-mode .menu-btn {
+    color: #c7c7c7;
+    background-color: #1e1e1e;
+  }
+
+  .dark-mode .top-bar {
+    background-color: rgba(30, 30, 30, 0.8);
+    background: linear-gradient(to bottom, rgba(73, 73, 73, 0.2), transparent);
+  }
+
+  .dark-mode .top-bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    z-index: -1;
+    background: linear-gradient(to right, #1e1e1e, transparent);
+    pointer-events: none;
+  }
+  
+  /* Right edge gradient */
+  .dark-mode .top-bar::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    z-index: -1;
+    background: linear-gradient(to left, #1e1e1e, transparent);
+    pointer-events: none;
+  }
+
+  .dark-mode .sidebar-header {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.5), transparent);
+  }
+  
+  .dark-mode .top-bar a {
+    color: #7d5b99;
+  }
+  
+  .dark-mode .note-toolbar {
+    border-color: #2d2d2d;
+  }
+  
+  .dark-mode .modal-content {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .modal-header,
+  .dark-mode .modal-footer {
+    border-color: #252526;
+  }
+  
+  .dark-mode .modal-content span {
+    color: #c7c7c7;
+  }
+  
+  .dark-mode .dark-mode-modal-content {
+    background-color: #2d2d2d;
+    color: #c7c7c7;
+  }
+  
+  .dark-mode .dark-mode-modal-close {
+    color: #c7c7c7;
+  }
+  
+  .dark-mode .slider {
+    background-color: #555;
+  }
+  
+  .dark-mode .slider:before {
+    background-color: #f1f1f1;
+  }
+  
+  .dark-mode .btn-danger {
+    background-color: #721c24;
+    color: #f8d7da;
+  }
+
+  .dark-mode .settings-section {
+    border-color: #3c3c3c;
+  }
+
+  .dark-mode #settings{
+    color: #c7c7c7;
+  }
+
+  .dark-mode .header-buttons button {
+    color: #c7c7c7;
+  }
+
+  .dark-mode #back-btn{
+    color: #c7c7c7;
+  }
