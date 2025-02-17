@@ -1,0 +1,76 @@
+current version:
+v0.12.8:
+- Lockable Folders
+- Minor bugfixes
+
+previous versions:
+v0.12.7:
+- Folders v2
+    - UI update (added a directory line for visibility)
+    - Improved folder I/O
+        - fixed importing zip files
+    - fixed an issue where deleting a folder wasn't also deleting its children
+
+v0.12.6:
+- Note Folders v1
+    - Organize notes in folders
+    - Download folders as zip files containing the notes downloaded to the desired file type
+        - (Still WIP)
+    - Pin folders
+
+v0.12.5:
+- Sort notes
+    - Sort by A-Z (Z-A)
+    - Date modified
+    - Date created
+- Updated sidebar UI
+    - Folder WIP
+
+v0.12.4:
+- Drag and drop files
+
+v0.12.3:
+- Visual improvements
+    - New logo and color scheme
+- Search note functionality hotfix
+
+v0.12.2:
+- Internal Import/Export/Downloading modifications
+    - Better handling of imported notes
+    - Can now import .md and .txt file types (still a bit buggy)
+    - "Download JSON as encrypted" option for saving individual notes as JSON if they're locked
+    - Fixed downloading locked notes to pdf
+    - Cleaned up redundant internal functions
+- (quality of life) Locked window automatically detects for input
+- Fixed title text overflow for note items
+- Style improvements(?)
+
+v0.12.1:
+- Sidebar Resizing
+    - Click and drag the side of the sidebar to resize it's window
+
+v0.11.5:
+- Locked Note encryption
+    - Locked notes will now be encrypted using AES
+    - Content is editable but still encrypted on closing
+    - Passwords are saved in alternative storage and are associated by note ID
+    - Passwords are only removed frmo that ID when unlocked, so imported locked notes also works
+- System optimizations (WIP)
+    - Cleaning up the workspace to use less heirarchy and more utils
+
+v0.11.4:
+- Export as PDF implementation
+
+v0.11.3:
+- Option to change downloaded note file type
+    - JSON, .txt, .md
+    - PDF implementation will be added in a later patch
+- Autofocus on password modals
+- Password modals no longer retain their contents when closed sporadicallys
+
+v0.11.2:
+- Extra security for downloading locked notes
+    - requires the password to download now
+
+v0.11.1:
+- Better localstorage (OPFS)
